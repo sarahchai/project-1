@@ -1,0 +1,246 @@
+* {
+    background-color: black
+}
+.start-page {
+    text-align: center;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 0;
+    color: white;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Arvo', serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.drop {
+    color: black;
+    text-shadow: -5px 0 white, 0 5px white, 5px 0 white, 0 -5px white;
+    animation-name: dropColors;
+    animation-duration: 6s;
+}
+
+@keyframes dropColors {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+.c {
+    color: red;
+}
+
+.first-o {
+    color: yellow;
+}
+
+.l {
+    color: aqua;
+}
+
+.second-o {
+    color: blue;
+}
+
+.r {
+    color: magenta;
+}
+
+.logo-image {
+    height: 65px;
+    width: auto;
+}
+
+.play-button {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 130px;
+    height: auto;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(227, 77, 77);
+}
+
+.play-button:hover {
+    background-color: rgb(249, 121, 121);
+}
+
+
+footer p {
+    text-align: left;
+    padding-top: 30px;
+    margin: none;
+    padding-bottom: none;
+}
+
+
+.question-page {
+    text-align: center;
+}
+
+
+.flash-color {
+    width: 1250px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.question-image {
+    height: 560px;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.color-input {
+    width: 150px;
+    height: 60px;
+}
+
+.submit-button {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    width: 90px;
+    height: auto;
+}
+
+
+.result-phrase {
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Arvo', serif;
+    color: black;
+    -webkit-text-stroke: 1px white;
+    text-shadow:
+        3px 3px 0 white,
+      -1px -1px 0 white,  
+       1px -1px 0 white,
+       -1px 1px 0 white,
+        1px 1px 0 white;
+    animation-name: phraseColors;
+    animation-duration: 10s;
+}
+
+@keyframes phraseColors {
+    0%   {-webkit-text-stroke: 1px red;
+          text-shadow:
+            3px 3px 0 red,
+          -1px -1px 0 red,  
+           1px -1px 0 red,
+           -1px 1px 0 red,
+            1px 1px 0 red;}
+    25%  {-webkit-text-stroke: 1px yellow;
+          text-shadow:
+            3px 3px 0 yellow,
+          -1px -1px 0 yellow,  
+           1px -1px 0 yellow,
+           -1px 1px 0 yellow,
+            1px 1px 0 yellow;}
+    50%  {-webkit-text-stroke: 1px blue;
+          text-shadow:
+          3px 3px 0 blue,
+        -1px -1px 0 blue,  
+         1px -1px 0 blue,
+         -1px 1px 0 blue,
+          1px 1px 0 blue;}
+    100% {-webkit-text-stroke: 1px green;
+          text-shadow:
+          3px 3px 0 green,
+        -1px -1px 0 green,  
+         1px -1px 0 green,
+         -1px 1px 0 green,
+          1px 1px 0 green;}
+}
+
+
+.round {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color: white;
+}
+
+.answer-image {
+    display: block;
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.next-button {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 130px;
+    height: auto;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    right: 90px;
+}
+
+.end-page {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 60px;
+}
+
+.learn-more-links p {
+    font-family: 'Arvo', serif;
+    color: white;
+    font-size: 30px;
+}
+
+
+a {
+    color: white;
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.play-again-button {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(227, 77, 77);
+    margin-top: 30px;
+}
+
+.play-again-button:hover {
+    background-color: rgb(249, 121, 121);
+}
+
+.end-page footer p {
+    text-align: left;
+    padding-top: 115px;
+    margin: none;
+    padding-bottom: none;
+}

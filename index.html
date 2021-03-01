@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drop the Color!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400i,700i" rel="stylesheet">
+</head>
+
+<body>
+    <div class="start-page">
+        <header>
+            <h1><span class="drop">DROP</span> the <span class="c">C</span><span class="first-o">o</span><span class="l">l</span><span
+                    class="second-o">o</span><span class="r">r</span>&nbsp&nbsp<span class="logo"><img class="logo-image" src="logo/colordropwhite.png"></span></h1>
+        </header>
+        <main>
+            <h2>Instructions</h2>
+            <p>The color will be flashed for 3 seconds. You need to find that color on a image using a color eyedropper!
+                <br> A gif below shows how to use a color eyedropper.
+            </p>
+            <img class="color-picker-gif" src="https://thumbs.gfycat.com/TerrificUncommonIndiancow-size_restricted.gif">
+            <p>The answer will be given after you submit the color. It shows where the color is from, but the same color
+                might be found in other areas of the image.</p>
+            <h3>Play the Game!</h3>
+            <input class="play-button" type="button" value="Play" onclick="displayQuestion()">
+        </main>
+        <footer>
+            <p>&copy; 2018 Sarah Chai</p>
+        </footer>
+    </div>
+
+
+    <div class="question-page">
+        <div class="question-wrapper">
+            <div class="flash-color"></div>
+            <img class="question-image" alt="question-image-whynotshowing">
+        </div>
+        <div class="input-color">
+            <input class="color-input" type="color" value="#ffffff"> &nbsp&nbsp
+            <input class="submit-button" type="button" value="Submit" onclick="checkSubmittedColor()">
+        </div>
+    </div>
+
+    <div class="result-page">
+        <div class="round"></div>
+        <img class="answer-image" alt="answer-image">
+        <div class="result-phrase"></div>
+        <input class="next-button" type="button" value="Next" onclick="nextRound()">
+    </div>
+
+    <div class="end-page">
+        <h4>Hope you enjoyed the game!</h4>
+        <div class="learn-more-links">
+            <p>If you would like to explore film stills...</p>
+            <a href="https://film-grab.com/">Film Stills</a>
+            <p>If you would like to explore colors...</p>
+            <a href="https://color.adobe.com/create/color-wheel/">Color Wheel</a>
+        </div>
+        <input class="play-again-button" type="button" value="Play Again" onclick="refreshPage()">
+        <footer>
+            <p>&copy; 2018 Sarah Chai</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
